@@ -30,6 +30,6 @@ public class MyController {
             return "form";
         }
         System.out.println(loginData);
-        return "success";
+        return "index";
     }
 }
