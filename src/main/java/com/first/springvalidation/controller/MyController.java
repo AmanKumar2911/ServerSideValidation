@@ -14,7 +14,7 @@ import jakarta.validation.Valid;
 @Controller
 public class MyController {
     
-    @GetMapping("/form")
+    @GetMapping("/")
     public String openForm(Model m){
         System.out.println("Opening From");
         m.addAttribute("loginData", new LoginData());
